@@ -19,6 +19,7 @@
 	mensajeNumeroChacales: .asciiz " Chacales Encontrados: "
 	mensajeIntentos: .asciiz " Intento: "
 	mensajeCongrats: .asciiz "¡Felicidades! has ganado: "
+	mensajeInicial: .asciiz  "Bienvenido al Juego de los Chacales. \n"
 	perderChacales: .asciiz "¡Perdiste! Has encontrado todos los chacales."
 	perderIntentos: .asciiz "¡Perdiste! Se te han acabado los intentos."
 	ganarTesoros: .asciiz "¡Has encontrado todos los tesoros!"
@@ -261,12 +262,19 @@ main:
 	jr $ra
 	
 printArray: #a0 -> array base, #a1 -> array size
-	addi $sp, $sp, -4
-	sw $a0, 0($sp)
-
-	move $t2, $a0
+	#IMPRIME LOS NUMEROS
+	#addi $sp, $sp, -4
+	#sw $a0, 0($sp)
+	#move $t2, $a0
+	#li $t0, 0 #index = 0
 	
-	li $t0, 0 #index = 0
+	
+	li $v0, 4
+    	la $a0, mensajeInicial
+    	syscall
+    
+	jr $ra
+	
 	printArrayFor: #for (int i = 0; i < n; i++) {print(array[i]) }
 	slt $t1, $t0, $a1 # t0 < a1
 	beq $t1, $zero, exitPrintArrayFor
