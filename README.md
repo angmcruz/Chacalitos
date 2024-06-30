@@ -37,5 +37,5 @@ El jugador, con la suerte de su lado, debe encontrar 4 tesoros antes de descubri
 3. Sigue las indicaciones en pantalla para desarrollar tu estrategia y decidir si continuar o retirarte.
 
 ## Autores
-- Nestor Arias ([niarias@espol.edu.ec])
-- Melissa Cruz ([angmcruz@espol.edu.ec])
+- Nestor Arias [niarias@espol.edu.ec]
+- Melissa Cruz [angmcruz@espol.edu.ec]
