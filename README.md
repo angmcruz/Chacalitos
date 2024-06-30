@@ -26,7 +26,7 @@ El jugador, con la suerte de su lado, debe encontrar 4 tesoros antes de descubri
 2. Para ejecutar el proyecto:
     - Desde la carpeta del proyecto, ejecuta:
       ```bash
-      java -jar .\simulador\Mars4_5.jar .\chacalesGame.asm
+      java -jar .\simulador\Mars4_5.jar .\Chacalitos.asm
       ```
     - Alternativamente, puedes usar VS Code y ejecutar la tarea seleccionando "Run Task" y luego "Run MARS".
 
