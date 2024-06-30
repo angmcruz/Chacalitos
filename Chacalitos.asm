@@ -208,7 +208,7 @@ main:
 	sw $a0, 0($sp)
 	sw $a1, 4($sp)
 
-	li $a1, 13 
+	li $a1, 12 
 	li $v0, 42
 	syscall
 	
