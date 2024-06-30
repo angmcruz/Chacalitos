@@ -2,7 +2,7 @@
 Este proyecto desarrolla el Juego de Chacales en lenguaje MIPS Assembly
 
 ## Capturas de Pantalla
-Juego funcionado
+Juego funcionando
 
 
 ## Descripción
