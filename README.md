@@ -14,7 +14,7 @@ El jugador, con la suerte de su lado, debe encontrar 4 tesoros antes de descubri
 ## Funcionalidades
 
 - **Tablero Dinámico:** Al inicio de cada partida, los chacales y tesoros se distribuyen de manera aleatoria, asegurando que cada juego sea una nueva experiencia.
-- **Gestión de Estado:** Proporciona una visión del estado del tablero, incluyendo el dinero acumulado, los tesoros encontrados y los chacales revelados en cada turno.
+- **Gestión de Estado:** Proporciona una visión del estado del tablero, incluyendo el dinero acumulado, los tesoros encontrados y la cantidad de chacales que ha revelado durante el juego, en cada turno.
 - **Decisiones Estratégicas:** El jugador tiene la opción de seguir jugando para incrementar sus ganancias o retirarse con la cantidad acumulada.
 ## Requisitos
 - Tener instalado Java 8. Si aún no lo tienes, puedes descargarlo desde [Windows x64](https://www.java.com/es/download/ie_manual.jsp) o [MacOs x64](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=249843_43d62d619be4e416215729597d70b8ac).
